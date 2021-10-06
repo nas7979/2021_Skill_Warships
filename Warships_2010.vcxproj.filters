@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{b84fb961-ee12-4db3-964d-d065e4af8d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Image">
+      <UniqueIdentifier>{c3bd5f18-75a1-4062-8482-be8460b0ce70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Sound">
+      <UniqueIdentifier>{1772667b-cfb5-4959-b006-a4f447c07d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Scene">
+      <UniqueIdentifier>{311afabc-9f6d-4569-90c7-7541e893eff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Camera">
+      <UniqueIdentifier>{2d5e65c2-4b21-456c-9710-ce9bc02b07c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Game">
+      <UniqueIdentifier>{e69b3e74-37d0-4ee4-93a2-e7c794233e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Input">
+      <UniqueIdentifier>{4cd29516-4fb1-448c-90bb-fd042b1984f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Schedule">
+      <UniqueIdentifier>{d84294fd-6ead-47d7-80cc-5814950c3438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Object">
+      <UniqueIdentifier>{4f242c7a-2dd9-4d80-a38b-7aec7eb44701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3dad9a4c-f65f-476e-83b8-0ae15c4626b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Renderer">
+      <UniqueIdentifier>{c86a3d50-e724-4682-9277-c401152fee1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider">
+      <UniqueIdentifier>{0b343fa0-809b-49d3-bf6d-3782ebe4ab6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Lambda">
+      <UniqueIdentifier>{7c0ef71a-cb01-4167-acd1-94c7a5a3228b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animation">
+      <UniqueIdentifier>{6dee9e32-8d2b-497b-b762-8d97ccbef4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{1b48348e-fef3-4dfd-aa2f-92eb4869ea98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Loading">
+      <UniqueIdentifier>{b5c070d2-51ad-490c-b3e6-c9bbed3631ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Ingame">
+      <UniqueIdentifier>{51fa8d96-3bf2-4efe-89e6-1d931179bbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{222a6a41-1561-46f7-8d37-933bbb69272d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts">
+      <UniqueIdentifier>{5475712d-3a9c-41f5-bd0b-2c67132d5a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Player">
+      <UniqueIdentifier>{ab495572-f723-46f7-8ba1-cdab435ad876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Weapon">
+      <UniqueIdentifier>{17a83691-26ad-470b-a5c4-1824105cddc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy">
+      <UniqueIdentifier>{3cc0365a-410e-420f-8cd6-ebeae4bfd013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Map">
+      <UniqueIdentifier>{e89aefb9-81e3-4a76-86f6-1371e4f9bc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Bullet">
+      <UniqueIdentifier>{7ccb27b3-e92f-45f3-83a4-e19f0225673c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy\Zako">
+      <UniqueIdentifier>{64989df8-59b9-4bc5-9fd0-44079528a361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Particle">
+      <UniqueIdentifier>{3c2ba7ec-b92d-47df-b80d-a1444461a508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Item">
+      <UniqueIdentifier>{4d25835d-ba1f-4774-a9b7-feb938e28b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy\Obstacle">
+      <UniqueIdentifier>{ede93fb3-b25f-490f-89b4-aac63d2b3e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy\Boss2">
+      <UniqueIdentifier>{e3c80d34-122a-4bc3-a73f-8595146047e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy\Boss1">
+      <UniqueIdentifier>{59cacd09-27d1-4fa1-ada3-52cc6769c1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Timeline">
+      <UniqueIdentifier>{520af6ca-fcee-4c4f-807e-b1aefa203041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Enemy\Boss3">
+      <UniqueIdentifier>{89758e99-1ce2-4d3a-bd8e-8dd3764112d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scripts\Score">
+      <UniqueIdentifier>{1c60555c-28fc-48e6-bf23-84c5acd90371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Ranking">
+      <UniqueIdentifier>{7753b1d8-1470-43cb-9df2-e53719e863dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Title">
+      <UniqueIdentifier>{c958c7bc-a861-42c9-b6ad-cb312e032ace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Warships.cpp" />
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Managers\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Managers\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Managers\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Managers\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraManager.cpp">
+      <Filter>Managers\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp">
+      <Filter>Managers\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>Managers\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cScheduleManager.cpp">
+      <Filter>Managers\Schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>Managers\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshRenderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteRenderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="cLambda.cpp">
+      <Filter>Components\Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteAnimation.cpp">
+      <Filter>Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>Scenes\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage1Scene.cpp">
+      <Filter>Scenes\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Components\Scripts\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cWaterShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cWater.cpp">
+      <Filter>Components\Scripts\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cWave.cpp">
+      <Filter>Components\Scripts\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Components\Scripts\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Components\Scripts\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon.cpp">
+      <Filter>Components\Scripts\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako1.cpp">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cStandardShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako2.cpp">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>Components\Scripts\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako4.cpp">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako5.cpp">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako3.cpp">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cMine.cpp">
+      <Filter>Components\Scripts\Enemy\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrash.cpp">
+      <Filter>Components\Scripts\Enemy\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss1.cpp">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss1_Timeline1.cpp">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeline.cpp">
+      <Filter>Components\Timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss1_Timeline2.cpp">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss1_Timeline3.cpp">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage2Scene.cpp">
+      <Filter>Scenes\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss2.cpp">
+      <Filter>Components\Scripts\Enemy\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss2_Timeline1.cpp">
+      <Filter>Components\Scripts\Enemy\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3.cpp">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Timeline1.cpp">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Timeline2.cpp">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Timeline3.cpp">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Timeline4.cpp">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cScore.cpp">
+      <Filter>Components\Scripts\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="cRankingScene.cpp">
+      <Filter>Scenes\Ranking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="cSingleton.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Managers\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>Managers\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraManager.h">
+      <Filter>Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameManager.h">
+      <Filter>Managers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cScheduleManager.h">
+      <Filter>Managers\Schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>Managers\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteRenderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshRenderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="cLambda.h">
+      <Filter>Components\Lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="cShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteAnimation.h">
+      <Filter>Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>Scenes\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage1Scene.h">
+      <Filter>Scenes\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Components\Scripts\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cWaterShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cWater.h">
+      <Filter>Components\Scripts\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cWave.h">
+      <Filter>Components\Scripts\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Components\Scripts\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Components\Scripts\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon.h">
+      <Filter>Components\Scripts\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako1.h">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cStandardShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako2.h">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>Components\Scripts\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako5.h">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako3.h">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako4.h">
+      <Filter>Components\Scripts\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cMine.h">
+      <Filter>Components\Scripts\Enemy\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrash.h">
+      <Filter>Components\Scripts\Enemy\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss1.h">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss1_Timeline1.h">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeline.h">
+      <Filter>Components\Timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss1_Timeline2.h">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss1_Timeline3.h">
+      <Filter>Components\Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage2Scene.h">
+      <Filter>Scenes\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss2.h">
+      <Filter>Components\Scripts\Enemy\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss2_Timeline1.h">
+      <Filter>Components\Scripts\Enemy\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Timeline4.h">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3.h">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Timeline1.h">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Timeline2.h">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Timeline3.h">
+      <Filter>Components\Scripts\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="cScore.h">
+      <Filter>Components\Scripts\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="cRankingScene.h">
+      <Filter>Scenes\Ranking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Warships.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\Water.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\2DShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\StandardShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
