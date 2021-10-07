@@ -5,7 +5,17 @@ void cGameManager::Init()
 {
 	m_TimeScale = 1;
 	PlayerInit();
-	m_Ranking.push_back(Ranking{ "AAA", 10000000 });
+	ifstream File("Ranking.txt");
+	string Name;
+	int Score;
+	for (int i = 0; i < 10; i++)
+	{
+		File >> Name;
+		File >> Score;
+		m_Ranking.push_back(Ranking{ Name, Score });
+	}
+	File.close();
+	SortRanking();
 }
 
 void cGameManager::Update()

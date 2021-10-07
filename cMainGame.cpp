@@ -54,6 +54,23 @@ void cMainGame::Render()
 
 void cMainGame::Release()
 {
+	GAME->m_Ranking.push_back(Ranking{ "SAD", Random(1000000, 10000000) });
+	GAME->SortRanking();
+
+	ofstream File("Ranking.txt");
+	int i = 0;
+	for (auto& iter : GAME->m_Ranking)
+	{
+		File << iter.Name;
+		File << endl;
+		File << iter.Score;
+		File << endl;
+		i++;
+		if (i == 10)
+			break;
+	}
+	File.close();
+
 	INPUT->ReleaseInstance();
 	OBJECT->ReleaseInstance();
 	CAMERA->ReleaseInstance();

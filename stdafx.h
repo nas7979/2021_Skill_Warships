@@ -11,6 +11,7 @@
 #include <functional>
 #include "SDKwavefile.h"
 #include "SDKsound.h"
+#include <fstream>
 #pragma comment (lib, "legacy_stdio_definitions.lib")
 #pragma comment (lib, "dsound.lib")
 
